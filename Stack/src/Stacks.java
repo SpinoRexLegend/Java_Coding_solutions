@@ -4,7 +4,7 @@ public class Stacks
     ArrayList<Character> stack = new ArrayList<Character>();
     public boolean checkParenthesis (String parenthesis)
     {
-        for (int i = parenthesis.length()-1; i >= 0; i--)
+        for (int i = parenthesis.length() - 1; i >= 0; i--)
         {
             stack.add(parenthesis.charAt(i));
         }
